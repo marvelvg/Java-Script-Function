@@ -1,2 +1,2 @@
 # Private-JS---Coba2
-dumpling2 ajah
+Belajar cara pakai macam-macam function
