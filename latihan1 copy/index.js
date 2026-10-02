@@ -4,10 +4,10 @@ const numbers = [1, 2, 3, 4, 5];
 
 // Buat array baru setiap angka di kali 5
 
-const doubled = numbers.map((number) => {
+const doubled = numbers.map((number, index) => {
     return number * 5;
 });
 
-doubled.forEach((number) => {
-    console.log(number);
+doubled.forEach((number, index) => {
+    console.log('Index ke- ' + index + ' adalah ' + number);
 });
